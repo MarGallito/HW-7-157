@@ -5,12 +5,12 @@
     display: flex;
 	justify-content: center; 
     width: 1440px;
+    width: 100%;
     height: 50px;
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 300;
-	
+    z-index: 100;
 }
 #navigation{
     display: flex;
@@ -22,13 +22,58 @@
     width: 350px;
     justify-content: space-between;
     margin-left: 92px;
+    align-items: center;
+    text-align: center;
 }
 #logo{
     color: #FA6980;
     font-family: 'Kanit';
+    padding-left: 20px;
 }
 .nav-li{
     color: #343638;
     font-size: 11px;
     font-family: 'Kanit';
+}
+#madam {
+    padding-left: 40px;
+}
+#trending-main {
+    margin-left: 20px;
+    margin-top: 75px;
+    font-size: 24px;
+    font-family: 'Kanit';
+    color: #202124;
+}
+#trend-boxes {
+    width: 1160px;
+    height: 410px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    width: 360px;
+    height: 350px;
+    color: #fff;
+    position: relative;
+}
+#mount {
+    border-radius: 6px 6px 0 0;
+}
+.box-txt {
+    width: 280px;
+    height: 16px;
+    position: absolute;
+    font-family: 'Kanit';
+    color: #fff;
+    top: 24px;
+    left: 40px;
+    font-size: 16px;
+}
+.box-txt-2 {
+    width: 280px;
+    height: 38px;
+    
 }
