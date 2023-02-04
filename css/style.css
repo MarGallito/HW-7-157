@@ -43,7 +43,8 @@
     padding-left: 40px;
 }
 #trending-main {
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 75px;
 }
 .trend {
@@ -99,8 +100,14 @@
 #section-2 {
    width: 1160px;
    margin-top: 58px;
-   display: flex;
-   justify-content: space-between;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.happening {
+    display: flex;
+    margin-top: 40px;
+    width: 1160px;
 }
 .img-block {
     display: flex;
