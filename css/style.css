@@ -111,17 +111,17 @@
     margin-right: 40px;
 }
 #franco-block{
-    position: absolute;
-    top: 194px;
-    left: 308px;
+    position: relative;
 }
 #franc-txt {
-    position: relative;
+    position: absolute;
     width: 280px;
     height: 17px;
     color: #FFFFFF;
     font-family: 'Kanit';
     font-weight: bold;
+    top: 194px;
+    left: 308px;
 }
 .images-block {
     width: 760px;
